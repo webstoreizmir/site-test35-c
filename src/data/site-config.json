@@ -1,120 +1,124 @@
 {
-  "is_paid": false,
   "metadata": {
-    "title": "Modern Ajans Pro",
-    "description": "Profesyonel dijital çözümler."
+    "title": "test35 Teknoloji ve Dijital Çözüm Merkezi",
+    "description": "test35, modern teknoloji dünyasında işletmelerin dijital altyapılarını en son yeniliklerle güçlendiren, dark mode odaklı ve yüksek performanslı yazılım çözümleri sunan öncü bir teknoloji kuruluşudur.",
+    "site_url": "https://test35.c"
   },
   "theme": {
     "colors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "background": "#0f172a",
-      "text": "#f8fafc"
+      "primary": "#00d1ff",
+      "secondary": "#7000ff",
+      "background": "#0a0b10",
+      "text": "#e2e8f0"
     },
     "fonts": {
-      "heading": "Montserrat",
+      "heading": "Inter",
       "body": "Inter"
     },
     "style": "modern"
   },
   "images": {
-    "hero_keyword": "modern office architecture glass",
-    "about_keyword": "team meeting creative",
+    "hero_keyword": "tech futuristic digital abstract neural network",
+    "about_keyword": "tech corporate high-end laboratory research",
     "feature_keywords": [
-      "code",
-      "design",
-      "rocket"
+      "cybersecurity protection",
+      "cloud computing server",
+      "artificial intelligence robotic"
     ]
   },
   "content": {
     "hero": {
-      "headline": "Geleceği Şekillendiriyoruz",
-      "subheadline": "İşletmeniz için en modern teknolojileri kullanarak dijital dünyada fark yaratın.",
-      "ctaButtonText": "Hemen Başlayın"
+      "headline": "Dijital Dönüşümün Geleceğini test35 İle Keşfedin",
+      "subheadline": "En gelişmiş yazılım mimarileri ve yapay zeka odaklı sistemlerle iş süreçlerinizi tamamen dijital çağa taşıyoruz.",
+      "ctaButtonText": "Hemen Teklif Alın",
+      "badge_text": "Yeni Nesil Teknoloji ve Yazılım Partneri"
     },
     "about": {
-      "title": "Biz Kimiz?",
-      "description": "2010 yılından beri sektörde öncü çözümler üretiyoruz. Müşteri memnuniyeti odaklı yaklaşımımızla markanızı zirveye taşıyoruz.",
+      "title": "Kurumsal Kimliğimiz ve Misyonumuz",
+      "description": "test35 olarak, kuruluşumuzdan bu yana teknoloji ve inovasyonu merkeze alarak şirketlerin karmaşık dijital sorunlarına yaratıcı, hızlı ve sürdürülebilir çözümler sunmayı amaçlayan profesyonel bir ekibiz. Sektördeki yenilikçi yaklaşımımızla dijital dünyada standartları yeniden belirliyoruz.",
       "stats": [
         {
-          "label": "Tamamlanan Proje",
-          "value": "500+"
+          "value": "12+ Yıl",
+          "label": "Sektörel Deneyim"
         },
         {
-          "label": "Mutlu Müşteri",
-          "value": "150+"
+          "value": "850+ Proje",
+          "label": "Tamamlanan İşler"
         },
         {
-          "label": "Yıllık Deneyim",
-          "value": "12"
+          "value": "99% Başarı",
+          "label": "Müşteri Memnuniyeti"
         }
       ]
     },
     "services": [
       {
-        "title": "Web Tasarım",
-        "description": "Mobil uyumlu, hızlı ve modern web siteleri.",
-        "icon": "💻"
-      },
-      {
-        "title": "SEO Optimizasyonu",
-        "description": "Google'da ilk sıralarda yerinizi alın.",
+        "title": "Gelişmiş Bulut Sistemleri",
+        "description": "Şirketinizin tüm verilerini güvenli, ölçeklenebilir ve yüksek erişilebilirlik sunan bulut ortamlarında yönetiyoruz.",
         "icon": "🚀"
       },
       {
-        "title": "Sosyal Medya",
-        "description": "Markanızın sesini dünyaya duyurun.",
-        "icon": "📱"
-      }
-    ],
-    "testimonials": [
-      {
-        "name": "Ahmet Yılmaz",
-        "role": "CEO, Tech Corp",
-        "comment": "Harika bir ekip, işlerini zamanında ve mükemmel yapıyorlar."
+        "title": "Yapay Zeka Entegrasyonu",
+        "description": "İş süreçlerinizi optimize eden, verimliliği artıran ve hata payını minimize eden ileri seviye yapay zeka algoritmaları geliştiriyoruz.",
+        "icon": "💎"
       },
       {
-        "name": "Ayşe Demir",
-        "role": "Pazarlama Müdürü",
-        "comment": "Satışlarımız %200 arttı. Kesinlikle tavsiye ediyorum."
+        "title": "Siber Güvenlik Altyapısı",
+        "description": "Kurumsal verilerinizi en güncel tehditlere karşı koruyan, uçtan uca şifrelenmiş güvenlik protokolleri ve savunma sistemleri kuruyoruz.",
+        "icon": "⚡"
       }
     ],
     "process": [
       {
         "step": "01",
-        "title": "Keşif ve Analiz",
-        "description": "İhtiyaçlarınızı dinliyor, hedeflerinizi belirliyoruz."
+        "title": "Stratejik Analiz",
+        "description": "İşletmenizin mevcut teknolojik durumunu analiz ederek size en uygun yol haritasını titizlikle hazırlıyoruz."
       },
       {
         "step": "02",
-        "title": "Tasarım ve Planlama",
-        "description": "Modern ve kullanıcı dostu tasarımlar oluşturuyoruz."
+        "title": "Ar-Ge ve Geliştirme",
+        "description": "En modern yazılım dilleri ve teknolojilerle sistemlerinizi yüksek performans odaklı olarak inşa ediyoruz."
       },
       {
         "step": "03",
-        "title": "Geliştirme ve Teslimat",
-        "description": "Kodlama ve testleri tamamlayıp projenizi teslim ediyoruz."
+        "title": "Entegrasyon ve Destek",
+        "description": "Projeyi hayata geçirdikten sonra sürekli izleme ve 7/24 teknik destek hizmetimizle yanınızda oluyoruz."
       }
     ],
     "faq": [
       {
-        "question": "Proje teslim süresi ne kadar?",
-        "answer": "Projenin kapsamına göre 2-6 hafta arasında değişmektedir."
+        "question": "Proje teslim süreleriniz ne kadardır?",
+        "answer": "Projenin kapsamına ve karmaşıklığına bağlı olarak genellikle 3 ile 6 hafta arasında anahtar teslim süreçlerimizi tamamlamaktayız."
       },
       {
-        "question": "Ödeme koşulları nelerdir?",
-        "answer": "%50 peşin, %50 teslimat sonrası ödeme planı sunuyoruz."
+        "question": "Teknik destek hizmetiniz neleri kapsıyor?",
+        "answer": "Sistemlerinizin güncelliği, veri güvenliği ve olası teknik aksaklıkların giderilmesi için kesintisiz bakım ve destek paketleri sunuyoruz."
       },
       {
-        "question": "Destek hizmeti veriyor musunuz?",
-        "answer": "Evet, teslim sonrası 6 ay ücretsiz teknik destek sağlıyoruz."
+        "question": "Veri güvenliğini nasıl sağlıyorsunuz?",
+        "answer": "Uluslararası standartlarda şifreleme yöntemleri ve çok katmanlı güvenlik duvarları kullanarak tüm verilerinizi en üst seviyede koruyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Caner Özdemir",
+        "role": "Teknoloji Direktörü (CTO)",
+        "comment": "test35 ekibi ile gerçekleştirdiğimiz dijital altyapı projesi sayesinde operasyonel maliyetlerimizi ciddi oranda azaltmayı başardık."
+      },
+      {
+        "name": "Selin Aksoy",
+        "role": "Dijital Pazarlama Müdürü",
+        "comment": "Modern ve teknolojik yaklaşımları sayesinde markamızın dijital yüzünü tamamen yenilediler. Profesyonel hizmet anlayışları gerçekten etkileyici."
       }
     ],
     "contact": {
-      "address": "Levent, Büyükdere Cd. No:1, İstanbul",
-      "phone": "+90 555 123 45 67",
-      "email": "info@modernajans.com",
-      "map_query": "Istanbul"
+      "address": "Levent Mahallesi, Büyükdere Caddesi, Kristal Kule No:35, Şişli, İstanbul",
+      "phone": "+90 (212) 555 35 35",
+      "email": "test@test.c",
+      "map_query": "Levent, Şişli, İstanbul, Türkiye",
+      "whatsapp": "+90 (532) 111 22 33",
+      "instagram": "https://instagram.com/test35_tech_official",
+      "linkedin": "https://linkedin.com/company/test35-technology-solutions"
     }
   }
 }
