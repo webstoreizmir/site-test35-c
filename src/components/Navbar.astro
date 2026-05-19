@@ -1,0 +1,57 @@
+---
+import siteConfig from '../data/site-config.json';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+
+const shortTitle = title.split(/[|\-]/)[0].trim();
+const logoUrl = (siteConfig as any).images?.logo_url || null;
+---
+
+<nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-slate-900/80 backdrop-blur-lg border-b border-white/10">
+  <div class="container mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-3 group min-w-0">
+        {logoUrl ? (
+          <img
+            src={logoUrl}
+            alt={shortTitle}
+            class="w-10 h-10 rounded-xl object-cover shadow-lg group-hover:scale-110 transition-transform flex-shrink-0"
+          />
+        ) : (
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform flex-shrink-0">
+            {shortTitle.charAt(0)}
+          </div>
+        )}
+        <span class="text-xl font-heading font-bold text-white tracking-tight group-hover:text-[rgb(var(--color-primary))] transition-colors truncate max-w-[200px]">
+          {shortTitle}
+        </span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#hero" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Ana Sayfa</a>
+        <a href="#about" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Hakkımızda</a>
+        <a href="#services" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Hizmetler</a>
+        <a href="#testimonials" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Referanslar</a>
+        <a 
+          href="#contact" 
+          class="px-5 py-2.5 rounded-full bg-[rgb(var(--color-primary))] text-white text-sm font-bold hover:bg-[rgb(var(--color-secondary))] hover:shadow-lg hover:shadow-[rgb(var(--color-primary))]/30 transition-all transform hover:-translate-y-0.5"
+        >
+          İletişim
+        </a>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden text-white p-2">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
